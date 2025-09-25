@@ -26,12 +26,13 @@ int main()
 	int day = 12;
 	string month = "Марта";
 	int year = 2006;
-	cout << "Моя дата рождения: " << day << " " << month << " " << year << " " << endl;
+	cout << "Моя дата рождения: " << day << " " << month << " " << year << " года" << endl;
 
 	const float A = 2.3;
 	const string B = "WINDOWS";
 	cout << A << " " << B;
 }
+
 
 
 
