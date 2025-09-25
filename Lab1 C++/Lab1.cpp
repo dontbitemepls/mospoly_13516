@@ -17,7 +17,7 @@ int main()
 	// Задание 2.
 	int i = 150;
 	float x = 15.933;
-	short z = 250;
+	char z = 250;
 	cout << "i = " << i << endl;
 	cout << "x = " << x << endl;
 	cout << "z = " << z << endl;
@@ -32,5 +32,6 @@ int main()
 	const string B = "WINDOWS";
 	cout << A << " " << B;
 }
+
 
 
