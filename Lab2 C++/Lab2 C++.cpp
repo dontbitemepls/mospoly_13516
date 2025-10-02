@@ -47,9 +47,9 @@ int main()
             break;
         default:
             cout << "Введен некорректный знак" << endl;
-            break;
     }
 
 
 }
+
 
