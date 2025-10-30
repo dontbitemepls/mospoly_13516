@@ -4,11 +4,11 @@ using namespace std;
 
 void first_func() {
 	setlocale(LC_ALL, "Russian");
-	cout << "Ââåäèòå äâà ÷èñëà\n";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°\n";
 	int a, b;
 	cin >> a >> b;
-	cout << "Ñðåäíåå àðèôìåò: " << (a + b) / 2 << endl;
-	cout << "Ââåäèòå çíàê îïåðàöèè (+, -, * èëè /): \n";
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚:: " << (a + b) / 2 << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ðº Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸ (+, -, * Ð¸Ð»Ð¸ /): \n";
 	char op;
 	cin >> op;
 
@@ -25,7 +25,7 @@ void first_func() {
 	//    cout << a / b << endl;
 	//}
 	//else {
-	//    cout << "Ââåäåí íåêîððåêòíûé çíàê" << endl;
+	//    cout << "Ð’Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ñ‹Ð¹ Ð·Ð½Ð°Ðº" << endl;
 	//}
 
 	switch (op) {
@@ -42,8 +42,9 @@ void first_func() {
 		cout << a / b << endl;
 		break;
 	default:
-		cout << "Ââåäåí íåêîððåêòíûé çíàê" << endl;
+		cout << "Ð’Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ñ‹Ð¹ Ð·Ð½Ð°Ðº" << endl;
 		break;
 	}
+
 
 }
