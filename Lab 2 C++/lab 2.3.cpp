@@ -51,9 +51,9 @@ void third_func() {
 
     ref1 = 15.5; 
 
-    cout << "Çíà÷åíèå ïåðåìåííîé: " << fnum << endl; 
-    cout << "Çíà÷åíèå ÷åðåç óêàçàòåëü 1: " << ref1 << endl;
-    cout << "Çíà÷åíèå óêàçàòåëü 2: " << ref2 << endl;
+    cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹: " << fnum << endl; 
+    cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ñ‡ÐµÑ€ÐµÐ· ÑÑÑ‹Ð»ÐºÑƒ 1: " << ref1 << endl;
+    cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÑÑ‹Ð»ÐºÑƒ 2: " << ref2 << endl;
 
     cout << "foo(10) = " << foo(10) << endl;
     cout << "foo() = " << foo() << endl; 
@@ -61,7 +61,7 @@ void third_func() {
     int a = 3, b = 4, s = 0, p = 0;
 
     calc(a, b, s, p); 
-    cout << "Ñóììà: " << s << ", Ïðîèçâåäåíèå: " << p << endl;
+    cout << "Ð¡ÑƒÐ¼Ð¼Ð°: " << s << ", ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ: " << p << endl;
 
     int num = 10;
     cout << num << endl;
@@ -70,5 +70,6 @@ void third_func() {
         int x = i + 1;
         cout << "x = " << x << endl;
     }
+
 
 }
